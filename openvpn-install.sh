@@ -897,6 +897,7 @@ ncp-ciphers $CIPHER
 tls-server
 tls-version-min 1.2
 tls-cipher $CC_CIPHER
+client-to-client
 client-config-dir /etc/openvpn/ccd" >>/etc/openvpn/server.conf
 
 	# Create client-config-dir dir
@@ -1048,7 +1049,6 @@ cipher $CIPHER
 tls-client
 tls-version-min 1.2
 tls-cipher $CC_CIPHER
-client-to-client
 ignore-unknown-option block-outside-dns
 setenv opt block-outside-dns" >>/etc/openvpn/client-template.txt
 
