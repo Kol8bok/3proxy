@@ -8,12 +8,13 @@
 
 Установка:
 Скачиваем при помощи команды:
-git clone 
+git clone https://github.com/Pun15her/Pun15her.git
 
 Добавляем права на исполнение скрипта:
 chmod +x openvpn-install.sh
+
 Запускаем сам скрипт:
-sudo bash openvpn-install.sh
+sudo ./openvpn-install.sh
 
 Проходимся по меню, отвечаем на вопросы и выбираем нужные нам опции.
 Все клиентские конфиги хранятся в домашней директории в ~/.
