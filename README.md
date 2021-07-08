@@ -11,7 +11,7 @@
 Установка 3proxy на ubuntu:
 
 Скачивание скрипта и установка сервера 3proxy:
-git clone https://github.com/Pun15her/Pun15her.git
+\ngit clone https://github.com/Pun15her/Pun15her.git
 
 Заходим в папку домашней директории Pun15her:
 cd ~/Pun15her
